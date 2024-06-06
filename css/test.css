@@ -1,0 +1,318 @@
+@charset "utf-8";
+
+:root {
+    --mc: #0044ff;
+    --bc: #e8ecf1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-weight: inherit;
+    text-decoration: none;
+}
+
+ul,li,ol {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    padding:60px 0;
+}
+
+.tit {
+    font-size: 20px;
+    color: #666;
+    line-height: 40px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 40px;
+}
+
+.box {
+    margin-bottom: 120px;
+}
+
+.box01 {
+    display: flex;
+    justify-content: space-between;
+    background: #ddd;
+}
+
+.m-1 {
+    display: flex;
+}
+.m-1>li {
+}
+.m-1>li>a {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--mc);
+    border: 2px solid var(--mc);
+    color: #fff;
+}
+
+.m-1>li>a:hover {
+    background: #fff;
+    color: var(--mc);
+}
+
+.s-1 {
+    background: #e8ecf1;
+    display: none;
+}
+.s-1 li{}
+
+.s-1 li a{
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.s-1 li a:hover {
+    color: var(--mc);
+    font-weight: 600;
+}
+
+.box02 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.m-2 {
+    display: flex;
+}
+
+.m-2>li {
+    position: relative;
+}
+
+.m-2>li>a {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: var(--mc);
+    border: 2px solid var(--mc);
+    color: var(--bc);
+}
+
+.m-2>li>a:hover {
+    background-color: #fff;
+    color: var(--mc);
+}
+
+.s-2 {
+   display: none;
+}
+
+.s-2 li a {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #fff;
+    background: var(--bc);
+}
+
+.box03 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.m3-bg {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    height: 160px;
+    background: var(--bc);
+    z-index: -1;
+    display: none;
+}
+
+.m-3 {
+    display: flex;
+}
+
+.m-3>li>a {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 2px solid var(--mc);
+    color: var(--mc);
+}
+
+.m-3>li>a:hover {
+    background: var(--mc);
+    color: #fff;
+}
+
+.s-3 {
+    display: none;
+}
+
+.s-3>li>a{
+    text-align: center;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--bc);
+}
+
+.s-3>li>a:hover {
+    color: var(--mc);
+}
+
+.box04,.box05,.box06 {
+    width: 150px;
+    text-align: center;
+}
+
+.m-4>li>a {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #0044ff;
+    color: var(--bc);
+    border: 2px solid var(--mc);
+}
+
+.m-4>li>a:hover {
+    background: var(--bc);
+    color: var(--mc);
+}
+
+.s-4{
+    display: none;
+}
+
+.s-4 li a{
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--bc);
+}
+
+.s-4 li a:hover {
+    color: var(--mc);
+}
+.m-5>li{
+position: relative;
+}
+
+.m-5>li>a {
+
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #0044ff;
+    color: #fff;
+    border: 2px solid var(--mc);
+}
+
+.m-5>li>a:hover {
+    background: #fff;
+    color: var(--mc);
+}
+
+.s-5 {
+    position: absolute;
+    top: 0;
+    left: 150px;
+    display: none;
+}
+
+
+
+.s-5 li a {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--bc);
+}
+
+.s-5 li a:hover {
+    color: var(--mc);
+}
+
+.m-5>li{
+position: relative;
+}
+
+.box06 {
+  position: relative;
+}
+
+.m-6 {
+    position: relative;
+}
+
+
+.m-6>li>a {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: #0044ff;
+    color: #fff;
+    border: 2px solid var(--mc);
+}
+
+.m-6>li>a:hover {
+    background: #fff;
+    color: var(--mc);
+}
+
+.m-6>li {
+    position: relative;
+}
+
+.s-6{
+    position: absolute;
+    top: 0;
+    left: 150px;
+    display: none;
+}
+
+.m6-bg {
+    position: absolute;
+    bottom: 0px ;
+    left: 150px;
+    background: var(--bc);
+    width: 100vw;
+    height: 160px;
+    z-index: -1;
+    display: none;
+}
+
+.s-6 li {
+    display: table-cell;
+}
+.s-6 li a {
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    background: var(--bc);
+}
+
+.s-6 li a:hover {
+    color: var(--mc);
+}
+
